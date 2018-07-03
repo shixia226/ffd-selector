@@ -1,0 +1,57 @@
+.selector-shadow-panel {
+    position: absolute;
+    background: #D9D9D9;
+    border: 1px dashed #333333;
+    opacity: 0.26;
+    z-index: 226;
+}
+
+.selector-resize-panel {
+    position: absolute;
+    border: 1px solid #6495ED;
+    opacity: 0.26;
+    z-index: 226;
+}
+
+.selector-line {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 1px 1px 0 0;
+    border-style: dotted;
+    border-color: #5079F9;
+    overflow: visible;
+    z-index: 224;
+}
+
+.selector-resize-line {
+    border-style: solid;
+    border-color: #6495ED;
+    z-index: 225;
+    .selector-resize-button {
+        position: absolute;
+        width: 5px;
+        height: 5px;
+        border: 1px solid blue;
+        background: #FFFFFF;
+        margin-top: -3px;
+        margin-left: -2px;
+    }
+}
+
+.selector-area-line {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 1px 1px 0 0;
+    border-style: dashed;
+    border-color: #5079F9;
+    overflow: visible;
+    z-index: 224;
+}
+
+.selector-drag-line {
+    position: absolute;
+    border: 1px solid blue;
+    z-index: 226;
+}

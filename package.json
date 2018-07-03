@@ -1,0 +1,28 @@
+{
+  "name": "ffd-selector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ffd-util": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shixia226/ffd-selector.git"
+  },
+  "keywords": [
+    "selector",
+    "ffd",
+    "shixia"
+  ],
+  "author": "shixia226",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shixia226/ffd-selector/issues"
+  },
+  "homepage": "https://github.com/shixia226/ffd-selector#readme"
+}
